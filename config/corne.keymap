@@ -31,10 +31,10 @@
 
         ops {
             bindings = <
-&none  &none  &kp LG(NUMBER_1)  &kp C_VOLUME_UP    &kp LG(NUMBER_4)  &none    &none  &kp K_UNDO   &kp LG(K)   &kp K_REDO  &none  &none
-&none  &none  &kp LG(NUMBER_2)  &kp C_VOLUME_DOWN  &kp LG(N5)        &none    &none  &kp LG(H)    &kp LG(J)   &kp LG(L)   &none  &none
-&none  &none  &kp LG(NUMBER_3)  &kp K_MUTE         &kp LG(NUMBER_6)  &none    &none  &kp K_PASTE  &kp K_COPY  &kp K_CUT   &none  &none
-                                &none              &none             &none    &none  &none        &none
+&none  &none           &kp LG(NUMBER_1)  &kp C_VOLUME_UP    &kp LG(NUMBER_4)  &none    &none  &kp K_UNDO   &kp LG(K)   &kp K_REDO  &none  &none
+&none  &kp LEFT_SHIFT  &kp LG(NUMBER_2)  &kp C_VOLUME_DOWN  &kp LG(N5)        &none    &none  &kp LG(H)    &kp LG(J)   &kp LG(L)   &none  &none
+&none  &none           &kp LG(NUMBER_3)  &kp K_MUTE         &kp LG(NUMBER_6)  &none    &none  &kp K_PASTE  &kp K_COPY  &kp K_CUT   &none  &none
+                                         &none              &none             &none    &none  &none        &none
             >;
         };
 
@@ -44,15 +44,6 @@
 &trans  &trans  &kp ASTERISK      &kp EXCL   &kp SLASH      &trans    &trans  &trans        &kp PIPE       &trans         &trans  &trans
 &trans  &trans  &kp GREATER_THAN  &kp TILDE  &kp LESS_THAN  &trans    &trans  &trans        &trans         &trans         &trans  &trans
                                   &trans     &trans         &trans    &trans  &trans        &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &none  &kp LS(LEFT_PARENTHESIS)  &kp LS(DOUBLE_QUOTES)  &kp LS(RPAR)  &none      &none
-&none  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &none  &kp LBKT                  &kp SINGLE_QUOTE       &kp RBKT      &kp RSHFT  &none
-&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &none  &kp LS(LBRC)              &kp GRAVE              &kp LS(RBRC)  &none      &none
-                       &none   &none   &none     &none  &none                     &none
             >;
         };
     };
