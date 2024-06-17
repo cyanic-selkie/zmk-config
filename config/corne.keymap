@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         L3 {
-            bindings = <&tog 3>;
+            bindings = <&mo 3>;
             key-positions = <37 40>;
         };
     };
@@ -39,21 +39,21 @@
             >;
         };
 
-        ops {
+        symbols2 {
             bindings = <
-&none  &none           &kp LG(NUMBER_1)  &kp C_VOLUME_UP    &kp LG(NUMBER_4)  &none    &none  &kp K_UNDO   &kp LG(K)   &kp K_REDO  &none  &none
-&none  &kp LEFT_SHIFT  &kp LG(NUMBER_2)  &kp C_VOLUME_DOWN  &kp LG(N5)        &none    &none  &kp LG(H)    &kp LG(J)   &kp LG(L)   &none  &none
-&none  &none           &kp LG(NUMBER_3)  &kp K_MUTE         &kp LG(NUMBER_6)  &none    &none  &kp K_PASTE  &kp K_COPY  &kp K_CUT   &none  &none
-                                         &none              &none             &none    &none  &none        &none
+&trans  &trans  &kp PLUS          &kp EQUAL  &kp MINUS      &trans    &trans  &kp QUESTION  &kp AMPERSAND  &kp BACKSLASH  &trans  &trans
+&trans  &trans  &kp ASTERISK      &kp EXCL   &kp SLASH      &trans    &trans  &trans        &kp PIPE       &trans         &trans  &trans
+&trans  &trans  &kp GREATER_THAN  &kp TILDE  &kp LESS_THAN  &trans    &trans  &trans        &trans         &trans         &trans  &trans
+                                  &trans     &trans         &trans    &trans  &trans        &trans
             >;
         };
 
-        symbols2 {
+        ops {
             bindings = <
-&trans  &trans  &kp PLUS          &kp EQUAL  &kp MINUS      &trans    &bt BT_SEL 0  &kp QUESTION  &kp AMPERSAND  &kp BACKSLASH  &trans  &trans
-&trans  &trans  &kp ASTERISK      &kp EXCL   &kp SLASH      &trans    &bt BT_SEL 1  &trans        &kp PIPE       &trans         &trans  &trans
-&trans  &trans  &kp GREATER_THAN  &kp TILDE  &kp LESS_THAN  &trans    &bt BT_CLR    &trans        &trans         &trans         &trans  &trans
-                                  &trans     &trans         &trans    &trans        &trans        &trans
+&none  &none           &kp LG(NUMBER_1)  &kp C_VOLUME_UP    &kp LG(NUMBER_4)  &none    &bt BT_SEL 0  &kp K_UNDO   &kp LG(K)   &kp K_REDO  &none  &none
+&none  &kp LEFT_SHIFT  &kp LG(NUMBER_2)  &kp C_VOLUME_DOWN  &kp LG(N5)        &none    &bt BT_SEL 1  &kp LG(H)    &kp LG(J)   &kp LG(L)   &none  &none
+&none  &none           &kp LG(NUMBER_3)  &kp K_MUTE         &kp LG(NUMBER_6)  &none    &bt BT_CLR    &kp K_PASTE  &kp K_COPY  &kp K_CUT   &none  &none
+                                         &none              &none             &none    &none         &none        &none
             >;
         };
     };
