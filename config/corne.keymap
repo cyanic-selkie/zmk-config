@@ -43,7 +43,7 @@
             bindings = <
 &kp DOLLAR  &kp QUESTION   &kp PLUS          &kp EQUAL  &kp MINUS      &kp AMPERSAND    &trans  &trans  &trans  &trans  &trans  &trans
 &kp AT      &kp BACKSLASH  &kp ASTERISK      &kp EXCL   &kp SLASH      &kp PIPE         &trans  &trans  &trans  &trans  &trans  &trans
-&kp CARET   &trans         &kp GREATER_THAN  &kp TILDE  &kp LESS_THAN  &trans           &trans  &trans  &trans  &trans  &trans  &trans
+&kp CARET   &kp PERCENT    &kp GREATER_THAN  &kp TILDE  &kp LESS_THAN  &trans           &trans  &trans  &trans  &trans  &trans  &trans
                                              &trans     &trans         &trans           &trans  &trans  &trans
             >;
         };
