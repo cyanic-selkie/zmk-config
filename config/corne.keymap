@@ -59,10 +59,19 @@
 
         ops {
             bindings = <
-&trans  &trans          &kp LG(LC(NUMBER_1))  &kp C_VOLUME_UP    &kp LG(LC(NUMBER_4))  &trans    &bt BT_SEL 0  &kp K_UNDO     &kp LG(LC(K))  &kp K_REDO     &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LG(LC(NUMBER_2))  &kp C_VOLUME_DOWN  &kp LG(LC(N5))        &trans    &bt BT_SEL 1  &kp LG(LC(H))  &kp LG(LC(J))  &kp LG(LC(L))  &trans  &trans
-&trans  &trans          &kp LG(LC(NUMBER_3))  &kp K_MUTE         &kp LG(LC(NUMBER_6))  &trans    &bt BT_SEL 2  &kp K_PASTE    &kp K_COPY     &kp K_CUT      &trans  &trans
-                                              &trans             &bt BT_CLR            &trans    &trans        &trans         &trans
+&trans  &kp LCTRL       &kp LA(NUMBER_1)  &kp C_VOLUME_UP    &kp LA(NUMBER_4)  &trans    &bt BT_SEL 0              &trans     &kp LA(K)  &trans     &trans           &trans
+&trans  &kp LEFT_SHIFT  &kp LA(NUMBER_2)  &kp C_VOLUME_DOWN  &kp LA(N5)        &trans    &bt BT_SEL 1              &kp LA(H)  &kp LA(J)  &kp LA(L)  &kp RIGHT_SHIFT  &trans
+&trans  &trans          &kp LA(NUMBER_3)  &kp K_MUTE         &kp LA(NUMBER_6)  &trans    &bt BT_SEL 2              &trans     &trans     &trans     &trans           &trans
+                                          &trans             &bt BT_CLR        &trans    &kp LS(LC(LA(NUMBER_0)))  &trans     &trans
+            >;
+        };
+
+        diacritics {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
