@@ -65,14 +65,5 @@
                                           &trans             &bt BT_CLR        &trans    &kp LS(LC(LA(NUMBER_0)))  &kp RSHFT  &trans
             >;
         };
-
-        diacritics {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
     };
 };
