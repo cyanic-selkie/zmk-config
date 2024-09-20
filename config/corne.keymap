@@ -59,10 +59,19 @@
 
         ops {
             bindings = <
-&trans  &kp LCTRL       &kp LA(NUMBER_1)  &kp C_VOLUME_UP    &kp LA(NUMBER_4)  &trans    &bt BT_SEL 0              &trans     &trans     &trans     &trans     &trans
-&trans  &kp LEFT_SHIFT  &kp LA(NUMBER_2)  &kp C_VOLUME_DOWN  &kp LA(N5)        &trans    &bt BT_SEL 1              &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)  &trans
-&trans  &trans          &kp LA(NUMBER_3)  &kp K_MUTE         &kp LA(NUMBER_6)  &trans    &bt BT_SEL 2              &trans     &trans     &trans     &trans     &trans
-                                          &trans             &bt BT_CLR        &trans    &kp LS(LC(LA(NUMBER_0)))  &kp RSHFT  &trans
+&trans  &kp LCTRL       &kp LA(NUMBER_1)  &kp C_VOLUME_UP    &kp LA(NUMBER_4)  &trans    &bt BT_SEL 0  &trans     &trans     &trans     &trans     &trans
+&trans  &kp LEFT_SHIFT  &kp LA(NUMBER_2)  &kp C_VOLUME_DOWN  &kp LA(N5)        &trans    &bt BT_SEL 1  &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)  &trans
+&trans  &trans          &kp LA(NUMBER_3)  &kp K_MUTE         &kp LA(NUMBER_6)  &trans    &bt BT_SEL 2  &trans     &trans     &trans     &trans     &trans
+                                          &trans             &bt BT_CLR        &trans    &trans        &kp RSHFT  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
