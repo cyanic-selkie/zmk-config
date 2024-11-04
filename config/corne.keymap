@@ -23,7 +23,7 @@
 
         base {
             bindings = <
-&mt LALT EQUAL      &kp Q  &kp W  &kp F       &kp P        &kp B           &kp J      &kp L            &kp U      &kp Y    &caps_word  &mt LEFT_ALT SINGLE_QUOTE
+&mt LALT EQUAL      &kp Q  &kp W  &kp F       &kp P        &kp B           &kp J      &kp L            &kp U      &kp Y    &caps_word  &mt RIGHT_ALT SINGLE_QUOTE
 &mt LCTRL ESCAPE    &kp A  &kp R  &kp S       &kp T        &kp G           &kp M      &kp N            &kp E      &kp I    &kp O       &mt RIGHT_CONTROL SEMICOLON
 &mt LEFT_GUI UNDER  &kp Z  &kp X  &kp C       &kp D        &kp V           &kp K      &kp H            &kp COMMA  &kp DOT  &kp FSLH    &mt RIGHT_GUI DOUBLE_QUOTES
                                   &kp LSHIFT  &lt 3 SPACE  &lt 4 RETURN    &lt 2 TAB  &lt 1 BACKSPACE  &kp RSHFT
@@ -32,10 +32,10 @@
 
         numbers {
             bindings = <
-&kp TILDE  &kp LEFT_BRACKET      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET        &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LEFT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE          &trans  &trans  &trans  &trans  &trans  &trans
-                                               &trans        &kp NUMBER_0  &trans                   &trans  &trans  &trans
+&trans  &kp LEFT_BRACKET      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE          &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans        &kp NUMBER_0  &trans                   &trans  &trans  &trans
             >;
         };
 
