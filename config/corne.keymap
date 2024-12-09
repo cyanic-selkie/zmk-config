@@ -23,9 +23,9 @@
 
         base {
             bindings = <
-&mt LALT EQUAL      &kp Q  &kp W  &kp F       &kp P        &kp B           &kp J      &kp L            &kp U      &kp Y    &caps_word  &mt RIGHT_ALT SINGLE_QUOTE
+&mt LALT EQUAL      &kp Q  &kp W  &kp F       &kp P        &kp B           &kp J      &kp L            &kp U      &kp Y    &caps_word  &mt RIGHT_ALT GRAVE
 &mt LCTRL ESCAPE    &kp A  &kp R  &kp S       &kp T        &kp G           &kp M      &kp N            &kp E      &kp I    &kp O       &mt RIGHT_CONTROL SEMICOLON
-&mt LEFT_GUI UNDER  &kp Z  &kp X  &kp C       &kp D        &kp V           &kp K      &kp H            &kp COMMA  &kp DOT  &kp FSLH    &mt RIGHT_GUI DOUBLE_QUOTES
+&mt LEFT_GUI UNDER  &kp Z  &kp X  &kp C       &kp D        &kp V           &kp K      &kp H            &kp COMMA  &kp DOT  &kp FSLH    &mt RIGHT_GUI SINGLE_QUOTE
                                   &kp LSHIFT  &lt 3 SPACE  &lt 4 RETURN    &lt 2 TAB  &lt 1 BACKSPACE  &kp RSHFT
             >;
         };
