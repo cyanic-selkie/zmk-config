@@ -31,10 +31,13 @@
             <&kp LALT>,
             <&macro_press>,
             <&kp SPACE>,
+            <&macro_wait_time 20>,
             <&macro_release>,
             <&kp SPACE>,
             <&macro_release>,
-            <&kp LALT &macro_param_1to1>,
+            <&kp LALT>,
+            <&macro_wait_time 20>,
+            <&macro_param_1to1>,
             <&macro_release>,
             <&mo MACRO_PLACEHOLDER>;
     };
