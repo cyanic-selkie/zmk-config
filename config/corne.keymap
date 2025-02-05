@@ -101,10 +101,10 @@
 
         diacritics {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans         &trans  &trans            &trans    &trans  &trans             &trans            &trans         &trans  &trans
+&trans  &trans  &kp SEMICOLON  &trans  &kp SINGLE_QUOTE  &trans    &trans  &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &kp BACKSLASH  &trans  &trans
+&trans  &trans  &trans         &trans  &trans            &trans    &trans  &trans             &trans            &trans         &trans  &trans
+                               &trans  &trans            &trans    &trans  &trans             &trans
             >;
         };
     };
